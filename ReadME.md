@@ -26,9 +26,7 @@ Installation Process
         Install Python 3.x if it’s not already installed on your system.
 
     Install Dependencies:
-        Open a terminal and install the required tools:
-
-        bash
+        Open a terminal and install the required tool:
 
     sudo apt update
     sudo apt install aircrack-ng python3-tk
@@ -41,15 +39,11 @@ Verify Script Permissions:
 
     Make sure the script has execute permissions:
 
-    bash
-
     chmod +x DeAuth.py
 
 Run the Tool:
 
     Launch the tool using Python:
-
-    bash
 
     python3 DeAuth.py
 
@@ -76,7 +70,6 @@ Uninstallation:
 
     To remove the tool, simply delete the DeAuth.py script. The installed packages (aircrack-ng, python3-tk) can be removed using:
 
-    bash
 
         sudo apt remove aircrack-ng python3-tk
 
